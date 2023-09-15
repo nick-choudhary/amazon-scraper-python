@@ -11,10 +11,7 @@ jobs:
 
     steps:
     - name: Checkout repo
-      uses: actions/checkout@v2
-      with:
-          node-version: '16'
-      
+      uses: actions/checkout@master
 
     - name: Configure Git
       run: |
